@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dash-and-redis"
+version = "0.1.0"
+description = ""
+authors = ["Thanathip Limna <boatkrap@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^2.17.1"
+redis = "^5.0.7"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
